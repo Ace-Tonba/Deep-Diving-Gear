@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.acetonba.deepdivinggear.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockEntityBuilderMixin",
+    "BacktankRendererMixin",
+    "AbstractBuilderAccessor",
+    "LavaSwimmingMixin",
+    "WardenHelmetRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

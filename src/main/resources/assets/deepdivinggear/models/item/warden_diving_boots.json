@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "deepdivinggear:item/warden_diving_boots"
+  }
+}
