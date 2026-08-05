@@ -37,8 +37,7 @@ public class DDGItems {
                     DDArmorMaterials.WARDEN,
                     new Item.Properties()
                             .rarity(Rarity.RARE)
-                            .fireResistant()
-                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(40)),
+                            .fireResistant(),
                     DeepDivingGear.asResource("warden_diving"),
                     WARDEN_BACKTANK_PLACEABLE
 
