@@ -3,14 +3,19 @@ package net.acetonba.deepdivinggear;
 import com.simibubi.create.api.stress.BlockStressValues;
 import com.simibubi.create.foundation.item.ItemDescription;
 import com.simibubi.create.foundation.item.TooltipModifier;
+import net.acetonba.deepdivinggear.compat.CreateGoggles.CreateGogglesCompat;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.createmod.catnip.lang.FontHelper.Palette;
+
+import java.util.function.Supplier;
 
 
 @Mod(net.acetonba.deepdivinggear.DeepDivingGear.MODID)
@@ -18,9 +23,13 @@ import net.createmod.catnip.lang.FontHelper.Palette;
 public class DeepDivingGear {
     public static final String MODID = "deepdivinggear";
 
+
     public DeepDivingGear(IEventBus modEventBus, ModContainer modContainer) {
         DDGItems.ITEMS.register(modEventBus);
         DDGBlocks.BLOCKS.register(modEventBus);
+        if (ModList.get().isLoaded("creategoggles")) {
+            CreateGogglesCompat.init(modEventBus);
+        }
     }
 
     @SubscribeEvent

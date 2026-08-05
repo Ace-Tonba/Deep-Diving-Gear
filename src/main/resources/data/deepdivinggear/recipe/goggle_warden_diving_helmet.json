@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "creategoggles"
+    }
+  ],
+  "category": "equipment",
+  "key": {
+    "g": {
+      "item": "create:goggles"
+    },
+    "h": {
+      "item": "deepdivinggear:warden_diving_helmet"
+    }
+  },
+  "pattern": [
+    "hg"
+  ],
+  "result": {
+    "count": 1,
+    "id": "deepdivinggear:goggle_warden_diving_helmet"
+  }
+}

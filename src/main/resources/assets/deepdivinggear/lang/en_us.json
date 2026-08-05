@@ -17,5 +17,10 @@
   "item.deepdivinggear.warden_diving_helmet": "Warden Diving Helmet",
   "item.deepdivinggear.warden_diving_helmet.tooltip.behaviour1": "Provides immunity to _Fire_ and _Lava_, slowly draining _Air Pressure_ from the Backtank. Also grants _improved vision_ in Lava",
   "item.deepdivinggear.warden_diving_helmet.tooltip.condition1": "When Worn (Full set)",
-  "item.deepdivinggear.warden_diving_helmet.tooltip.summary": "Together with a _Netherite Backtank_ or _Warden Backtank_, this can protect you from _extreme heat_. To be effective, _Legs and Feet_ have to be covered in _Netherite_ or _Warden_, too."
+  "item.deepdivinggear.warden_diving_helmet.tooltip.summary": "Together with a _Netherite Backtank_ or _Warden Backtank_, this can protect you from _extreme heat_. To be effective, _Legs and Feet_ have to be covered in _Netherite_ or _Warden_, too.",
+
+  "item.deepdivinggear.goggle_warden_diving_helmet": "Goggle Warden Diving Helmet",
+  "item.deepdivinggear.goggle_warden_diving_helmet.tooltip.behaviour1": "_Kinetic components_ show added _Stress Impact_ or _Capacity_. _Stressometers_ show statistics of their _attached kinetic network_. Some other blocks reveal information such as item and fluid content.",
+  "item.deepdivinggear.goggle_warden_diving_helmet.tooltip.condition1": "When looking at blocks",
+  "item.deepdivinggear.goggle_warden_diving_helmet.tooltip.summary": "Augments your HUD with _miscellaneous information_ about placed components and provides armor."
 }

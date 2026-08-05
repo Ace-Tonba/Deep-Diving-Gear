@@ -40,7 +40,6 @@ public class DDGItems {
                             .fireResistant(),
                     DeepDivingGear.asResource("warden_diving"),
                     WARDEN_BACKTANK_PLACEABLE
-
             ));
 
     public static final DeferredItem<DivingBootsItem> WARDEN_DIVING_BOOTS = ITEMS.register(
